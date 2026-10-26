@@ -1,0 +1,7 @@
+# ESP32 4 MB flash: 1.25 MiB app and 2.5 MiB LittleFS data partition.
+# Arduino LittleFS mounts the data,spiffs partition using the default "spiffs" label.
+# Name,   Type, SubType, Offset,  Size,   Flags
+nvs,      data, nvs,     0x9000,  0x5000,
+otadata,  data, ota,     0xe000,  0x2000,
+factory,  app,  factory, 0x10000, 1280K,
+spiffs,   data, spiffs,  ,        2560K,
