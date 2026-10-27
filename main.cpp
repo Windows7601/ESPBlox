@@ -42,8 +42,8 @@
 #define SAFE_WORLD_FILE     "/world.safe.json"
 #define WORLD_LOAD_MARKER   "/world.load.inprogress"
 #define SAFE_MODE_MARKER    "/world.safe-mode"
-#define WIFI_SSID           "cerencema"
-#define WIFI_PASS           "383950hx"
+#define WIFI_SSID           "SSID"
+#define WIFI_PASS           "PASSWORD"
 
 static const char* SUPABASE_URL = "https://okhtosecqytklgwouwxv.supabase.co";
 static const char* SUPABASE_ANON_KEY = "sb_publishable_kyklbTdQk64bRSdGSrEX0w_1lKAD4X0";
