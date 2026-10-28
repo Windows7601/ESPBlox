@@ -19,3 +19,8 @@ Run a private vibeblox.online server on an ESP32!
    - config set
   
    to learn the available keys and configure your world like so. (Note: A limit exists on max players based on the amount of PSRAM that exists)
+### Admin Panel
+There is an admin panel at (url:port/admin). This URL lets you upload an existing world from another server, or reboot in and out of Safe Mode.
+Set password with UART console:
+
+config set admin_password <your_password>
