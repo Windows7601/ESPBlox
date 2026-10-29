@@ -24,7 +24,7 @@ Set password with UART console:
 
 config set admin_password <your_password>
 
-### Connecting from the internet
+### Connecting from the internet (+v1.b3.1)
 To include your friends in the fun, you'll need a hostname with wss:// to join the game. Here's how to set one up with Cloudflare Workers:
 1. Make a Cloudflare account and log into your dashboard.
 2. Run the espblox-flasher.bat file. (NOT flasher.bat)
