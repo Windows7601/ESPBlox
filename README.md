@@ -19,7 +19,7 @@ Run a private vibeblox.online server on an ESP32!
    to learn the available keys and configure your world like so. (Note: A limit exists on max players based on the amount of PSRAM that exists)
 If you closed batch and need the UART console, you can install Arduino IDE and open UART that way.
 ### Admin Panel
-There is an admin panel at (url:port/admin). This URL lets you upload an existing world from another server, or reboot in and out of Safe Mode.
+There is an admin panel at (privateIP:13381/admin). This URL lets you upload an existing world from another server, or reboot in and out of Safe Mode.
 Set password with UART console:
 
 config set admin_password <your_password>
