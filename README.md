@@ -23,3 +23,10 @@ There is an admin panel at (url:port/admin). This URL lets you upload an existin
 Set password with UART console:
 
 config set admin_password <your_password>
+
+### Connecting from the internet
+To include your friends in the fun, you'll need a hostname with wss:// to join the game. Here's how to set one up with Cloudflare Workers:
+1. Make a Cloudflare account and log into your dashboard.
+2. Search for "Workers" and click on Cloudflare Workers.
+3. Download the ESPBlox Cloudflare JS file, edit the file based on the instructions in it and upload it as a worker.
+4. Share the URL with your friends.
