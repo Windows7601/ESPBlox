@@ -11,12 +11,13 @@ Run a private vibeblox.online server on an ESP32!
 4. Follow the instructions in the batch file.
 5. After flash, the batch should open the UART console.
 6. In the UART console, send:
-   - config set wifi_ssid <your ssid>
-   - config set wifi_password <your wifi password>
+   - config set wifi_ssid < your ssid >
+   - config set wifi_password < your wifi password >
 7. Send:
    - config get
   
    to learn the available keys and configure your world like so. (Note: A limit exists on max players based on the amount of PSRAM that exists)
+
 If you closed batch and need the UART console, you can install Arduino IDE and open UART that way.
 ### Admin Panel
 There is an admin panel at (url:port/admin). This URL lets you upload an existing world from another server, or reboot in and out of Safe Mode.
